@@ -6,7 +6,8 @@
 
 .container-fluid {
 	padding: 0 !important;
-	margin: 0 !important;
+	margin: 0 auto !important;
+	max-width: 1280px;
 }
 
 .whatIsKnockDoc {
@@ -14,5 +15,12 @@
 }
 
 .btn-rounded {
-	border-radius: 50px!important;
+	border-radius: 50px !important;
+}
+
+.imagen-register {
+	
+}
+.imagen-register:hover {
+	filter: opacity(0.5);
 }
