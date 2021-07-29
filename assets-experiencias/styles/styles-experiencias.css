@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+.exp-title{
+    margin-top: 40px;
+}
+
+.head .text-container{
+    margin-top: 50px;
+    margin-bottom: 94px;
+    width: 80%;
+}
+
+.hr {
+    margin-top: 20px;
+    height: 5px;
+    width: 2%;
+    background-color: black;
+  }
+.card-box {
+    border: 1px solid #CFCFCF;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 50px;
+    box-shadow: -2px 15px 23px -4px rgba(0,0,0,0.20)
+
+
+
+}
+
+.footer {
+    width: 100%;
+    margin-top: 66px;
+    background-color: #E869B8;
+}
