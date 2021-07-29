@@ -1,0 +1,39 @@
+/* Variables css */
+:root{
+    /* Colors */
+    --primary: #458FF6;
+    --secondary: #E869B8;
+
+    /* Font */
+    --mulish: 'Spartan', sans-serif;
+}
+
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+.menu-items .nav-item{
+    font-size: 13px;
+    font-family: var(--mulish);
+    font-weight: 500;
+}
+
+.navbar-height{
+    height: 56px;
+}
+
+.btn-knock{
+    background-color: var(--primary);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 12px;
+}
