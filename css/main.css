@@ -22,10 +22,6 @@
     font-weight: 500;
 }
 
-.logo-brand{
-    z-index: 999;
-}
-
 .navbar-height{
     height: 56px;
 }
@@ -35,15 +31,23 @@
     color: white;
     font-weight: 600;
     border-radius: 50px;
+    border: 1px solid var(--primary);
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     font-size: 12px;
 }
+.btn-knock:hover{
+    background-color: white;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    font-weight: 700;
+}
 
 .btn-knock-secondary{
     background-color: var(--secondary);
+    border: 1px solid var(--secondary);
     color: white;
     font-weight: 600;
     border-radius: 50px;
@@ -52,6 +56,13 @@
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     font-size: 12px;
+}
+
+.btn-knock-secondary:hover{
+    background-color: white;
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+    font-weight: 700;
 }
 
 .txt-col{
@@ -65,3 +76,16 @@
 .img-col img{
     width: 400px;
 }
+
+
+@media (max-width: 992px) {
+    .navbar-height{
+        height: auto;
+    }
+
+    .img-col img{
+        width: 80%;
+        margin: 1rem auto;
+    }
+  }
+
