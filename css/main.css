@@ -5,7 +5,7 @@
     --secondary: #E869B8;
 
     /* Font */
-    --mulish: 'Spartan', sans-serif;
+    --spartan: 'Spartan', sans-serif;
 }
 
 /* Normalize */
@@ -18,8 +18,12 @@
 /* NavBar */
 .menu-items .nav-item{
     font-size: 13px;
-    font-family: var(--mulish);
+    font-family: var(--spartan);
     font-weight: 500;
+}
+
+.logo-brand{
+    z-index: 999;
 }
 
 .navbar-height{
@@ -36,4 +40,28 @@
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     font-size: 12px;
+}
+
+.btn-knock-secondary{
+    background-color: var(--secondary);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 12px;
+}
+
+.txt-col{
+    font-family: var(--spartan);
+}
+
+.txt-col h3{
+    font-weight: 600;
+}
+
+.img-col img{
+    width: 400px;
 }
