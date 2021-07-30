@@ -33,6 +33,28 @@
 
 .footer {
     width: 100%;
-    margin-top: 66px;
+    margin-top: 80px;
     background-color: #E869B8;
+}
+
+.text-center{
+    margin-top: 26px;
+}
+
+.namesContainer{
+    background-color: #458FF6;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.namesContainer .names{
+    margin-top: 29px;
+    font-size: small;
+}
+.namesContainer .roles{
+    font-size: smaller;
 }
