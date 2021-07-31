@@ -16,17 +16,28 @@
 			crossorigin="anonymous"
 		/>
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/main.css">
+		<!-- favicon -->
+		<link
+			rel="icon"
+			type="image/png"
+			href="assets/img/favicon.png"
+			sizes="16x16"
+		/>
 
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+		<!-- custom css -->
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<!-- google font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
     <title>KnockDoc</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white position-sticky d-block d-lg-flex justify-content-between navbar-height">
-          <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white d-block d-lg-flex justify-content-between navbar-height">
+          <a class="navbar-brand" href="./index.html">
               <img src="assets/img/logo.svg" height="75" alt="" class="mt-0 mt-lg-4">
           </a>
           <div>
@@ -39,19 +50,19 @@
                     <a class="nav-link mr-1" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mr-1" href="#">¿Qué es KnockDoc?</a>
+                    <a class="nav-link mr-1" href="#whatis">¿Qué es KnockDoc?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mr-1" href="#">Nuestros servicios</a>
+                    <a class="nav-link mr-1" href="#services">Nuestros servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mr-1" href="#">Opiniones</a>
+                    <a class="nav-link mr-1" href="#insights">Opiniones</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mr-1" href="#">Acerca de nosotros</a>
+                    <a class="nav-link mr-1" href="#about">Acerca de nosotros</a>
                   </li>
                   <li class="nav-item">
-                      <button class="btn btn-knock py-1 px-2 mt-1 ml-0 ml-lg-2">Iniciar sesión</button>
+                      <a class="btn btn-knock py-1 px-2 mt-1 mr-2 ml-0 ml-lg-2" href="#">Iniciar sesión</a>
                   </li>
                 </ul>
               </div>
@@ -62,8 +73,8 @@
     <div class="container">
       <div class="row p-lg-5 mx-auto my-5">
         <div class="col-12 col-lg-6 txt-col d-flex align-items-center">
-          <div>
-            <h3>Conecta con los profesionales</h3>
+          <div class="mt-5 mt-lg-0">
+            <h3 class="mt-5 mt-lg-0">Conecta con los profesionales</h3>
             <p>Con KnockDoc podrás encontrar a los profesionales en
               distintas áreas de medicina, Una experiencia única de servicio... </p>
 
@@ -80,20 +91,22 @@
                 </div>
               </div>
 
-              <div class="mt-4">
-                <h3>+20.000 Pacientes <br>
-                  +200 profesionales</h3>
-              </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 img-col">
-          <img src="assets/img/hero_image.png" alt="">
-        </div>
-      </div>
-    </div>
+						<div class="mt-4">
+							<h3>
+								+20.000 Pacientes <br />
+								+200 profesionales
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 img-col">
+					<img src="assets/img/hero_image.png" alt="" />
+				</div>
+			</div>
+		</div>
 
         <!-- Que es KnockDoc -->
-        <div class="whatIsKnockDoc bg-light">
+        <div class="whatIsKnockDoc bg-light" id="whatis">
           <div class="container py-5">
             <div class="row">
               <div class="col-12 col-md-6 pt-5">
@@ -141,50 +154,170 @@
         </div>
 
     <!-- Servicios -->
-    <section>
+    <section class="mb-5 mt-5" id="services">
       
-      <div class="container">
-        <div class="container mt-5 mx-center" style="width: 300px;">
-          <h3>Nuestros Servicios</h3>
+      <div class="container" >
+        <div class="container mt-5 mx-center text-center">
+          <h3 class="text-muted">Nuestros Servicios</h3>
           <img class="mx-5" width="150" height="50"  src="./assets/img/linea.svg" alt="linea">
      </div>
      <p class="d-flex justify-content-center text-muted">Podras encontrar los mejores profesionales de la salud en sus distintas especialidades al alcance de un clic</p>
-     <div class="d-flex justify-content-center">
-       <div class="row d-flex justify-content-center">
-              <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
-              <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/lupa.svg" alt="lupa">
-                <h6 class="mr-2 mt-3">Busca Profesionales</h6>
-                <p class="mr-2 mt-2 font-weight-lighter small">Busca los mejores medicos, en mas de 10 especialidades diferentes.</p>
-              </div>
-              <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
-                <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/histcli.svg" alt="Historial">
-                <h6 class="mr-2 mt-3">Historial Clínico</h6>
-                <p class="mr-2 mt-2 font-weight-lighter small">Administra tus citas medicas, seguimiento de tu proceso, lleva el control de tu salud.</p>
-              </div>
-              <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
-                <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/COVID19.svg" alt="covid">
-                <h6 class="mr-2 mt-3">COVID-19</h6>
-                <p class="mr-2 mt-2 font-weight-lighter small">Atención por COVID-19, Toma de pruebas PCR, analisis de laboratorio.</p>
-              </div>
-              <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
-                <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/pediatria.svg" alt="aprimaria"> 
-                <h6 class="mr-2 mt-3">Atención Primaria</h6>
-                <p class="mr-2 mt-2 font-weight-lighter small">Atención a la primera infancia, recuerda de o a 3 años esta el futuro de la salud en los niños.</p>
-              </div>
-              <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
-                <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/dentista.svg" alt="dentista">
-                <h6 class="mr-2 mt-3">Odontología</h6>
-                <p class="mr-2 mt-2 font-weight-lighter small">Manten tu salud Oral, encunetra la sonrisas que sueñas y sonrie todo el tiempo.</p>
-              </div>
-              <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
-                <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/ginec.svg" alt="ginecologia">
-                <h6 class="mr-2 mt-3">Ginecologia</h6>
-                <p class="mr-2 mt-2 font-weight-lighter small">Tu zona intima es muy importante, tu futuro tambien, estamos aquí.</p>
-              </div>
-          </div>
-     </div>   
-    </div>
+      <div class="d-flex justify-content-center">
+        <div class="row d-flex justify-content-center">
+                <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
+                <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/lupa.svg" alt="lupa">
+                  <h6 class="mr-2 mt-3">Busca Profesionales</h6>
+                  <p class="mr-2 mt-2 font-weight-lighter small">Busca los mejores medicos, en mas de 10 especialidades diferentes.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
+                  <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/histcli.svg" alt="Historial">
+                  <h6 class="mr-2 mt-3">Historial Clínico</h6>
+                  <p class="mr-2 mt-2 font-weight-lighter small">Administra tus citas medicas, seguimiento de tu proceso, lleva el control de tu salud.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
+                  <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/COVID19.svg" alt="covid">
+                  <h6 class="mr-2 mt-3">COVID-19</h6>
+                  <p class="mr-2 mt-2 font-weight-lighter small">Atención por COVID-19, Toma de pruebas PCR, analisis de laboratorio.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
+                  <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/pediatria.svg" alt="aprimaria"> 
+                  <h6 class="mr-2 mt-3">Atención Primaria</h6>
+                  <p class="mr-2 mt-2 font-weight-lighter small">Atención a la primera infancia, recuerda de o a 3 años esta el futuro de la salud en los niños.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
+                  <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/dentista.svg" alt="dentista">
+                  <h6 class="mr-2 mt-3">Odontología</h6>
+                  <p class="mr-2 mt-2 font-weight-lighter small">Manten tu salud Oral, encunetra la sonrisas que sueñas y sonrie todo el tiempo.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 m-4 bg-claer shadow" style="height: 200px; border-radius: 8px;">
+                  <img class="mr-2 mt-3" width="50" height="50" src="./assets/img/ginec.svg" alt="ginecologia">
+                  <h6 class="mr-2 mt-3">Ginecologia</h6>
+                  <p class="mr-2 mt-2 font-weight-lighter small">Tu zona intima es muy importante, tu futuro tambien, estamos aquí.</p>
+                </div>
+            </div>
+      </div>   
+      </div>
     </section>
+
+
+    <!-- Experiencias -->
+    <div class="container mt-5">
+
+    <div class="row mt-5" id="insights">
+      <div class="col-12 mt-5">
+        <section class="head" style="display: flex; flex-flow: column wrap; align-items: center; text-align: center; line-height: 20px;">
+          <div class="exp-title">
+            <h3 class="mb-4 text-muted">Experiencias KnockDoc</h3>
+          </div>
+          <!-- Linea horizontal -->
+          <div class="hr"></div>
+          <!-- Texto -->
+          <div class="text-container">
+            <p class="d-flex justify-content-center text-muted mb-4">
+              Nuestros clientes satisfechos son la más grande demostración de que lo estamos haciendo bien. Únete y sé parte de nuestra comunidad. <br> Aquí podrás encontrar algunos de sus testimonios.
+            </h5></p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <!-- Contenedor de tarjetas  -->
+        <section class="row">
+
+          <!-- Primera tarjeta de experiencia -->
+              <div class="col-12 col-lg-4 h-100">
+                  <div class="card card-box pt-2">
+                    <div class="card-header pl-3 bg-transparent border-0">
+                      <img src="./assets-experiencias/img/exp1.svg" class="card-img-top" id="user1">
+                      <label for="user1" class="user-name mb-0">
+                        <h5 class="mb-0 mt-2">Leonardo Rojas</h5>
+                      </label>
+                    </div>
+                    <div class="card-body p-3">
+                      <p class="d-flex justify-content-center text-muted">
+                        La diferencia entre los demás servicios para agendar citas y KnockDoc son gigantes, 100% rapidez y eficiencia, el poder ir a una cita cerca de mí hogar es un privilegio que no tenía antes.
+                      </p>
+                    </div>
+                  </div>
+              </div>
+              
+              <!-- Segunda tarjeta de experiencia -->
+              <div class="col-12 col-lg-4 h-100">
+                <div class="card card-box pt-2">
+                  <div class="card-header pl-3 bg-transparent border-0">
+                    <img src="./assets-experiencias/img/exp3.svg" class="card-img-top" id="user1">
+                    <label for="user1" class="user-name mb-0">
+                      <h5 class="mb-0 mt-2">Cristina Andrade</h5>
+                    </label>
+                  </div>
+                  <div class="card-body p-3">
+                    <p class="d-flex justify-content-center text-muted">
+                      Me la recomendó mí amiga y hoy tuve la cita con la Doctora Palacios, nunca había pensado que el sistema de salud podría cambiar tan drásticamente, quedé totalmente enamorada de este servicio.  
+                    </p>
+                  </div>
+                </div>
+            </div>
+              
+              <!-- Tercera tarjeta de experiencia -->
+              <div class="col-12 col-lg-4 h-100">
+                <div class="card card-box pt-2">
+                  <div class="card-header pl-3 bg-transparent border-0">
+                    <img src="./assets-experiencias/img/exp2.svg" class="card-img-top" id="user1">
+                    <label for="user1" class="user-name mb-0">
+                      <h5 class="mb-0 mt-2">Ignacio Redondo</h5>
+                    </label>
+                  </div>
+                  <div class="card-body p-3">
+                    <p class="d-flex justify-content-center text-muted">
+                      Aquí en Ciudad de México, es la aplicación de moda, nuestro sistema de salud no es muy bueno, pero realmente esta aplicación ha cambiado la manera en que todo funciona, gracias carnales.</p>
+                  </div>
+                </div>
+            </div>
+           </section>
+      </div>
+    </div>
+
+      
+
+
+</div>
+
+
+  
+<!-- Footer -->
+  <footer class="text-center text-white" id="about">
+        
+<!-- Twitter -->
+      <a class="btn" href="https://twitter.com/" target="https://twitter.com/" role="button"
+      ><img src="./assets-experiencias/img/1.png" alt="" style="width: 20px; height: 20px;"></a>
+
+<!-- Google -->
+    <a class="btn" href="https://www.google.com/" target="https://www.google.com/" role="button"
+      ><img src="./assets-experiencias/img/2.png" alt="" style="width: 20px; height: 20px;"></a>
+
+<!-- Instagram -->
+    <a class="btn" href="https://www.instagram.com/" target="https://www.instagram.com/" role="button"
+      > <img src="./assets-experiencias/img/3.png"alt="" style="width: 20px; height: 20px;"></a>
+
+<!-- Playstore -->
+     <a class="btn" href="https://play.google.com/" target="https://play.google.com/" role="button"
+     > <img src="./assets-experiencias/img/4.png"alt="" style="width: 20px; height: 20px;"></a>
+
+<!-- Appstore -->
+    <a class="btn" href="https://www.apple.com/app-store/" target="https://www.apple.com/app-store/" role="button"
+    > <img src="./assets-experiencias/img/5.png"alt="" style="width: 20px; height: 20px;"></a>
+      
+<!-- Copyright -->
+       <div class="namesContainer">
+          <div class="names">Angello Gómez <p class="roles"> (Developer)</p></div>
+          <div class="names">Carlos Pérez <p class="roles"> (Product Owner)</p></div>
+          <div class="names">José Lineros <p class="roles"> (Developer)</p></div>
+          <div class="names">Óscar González <p class="roles"> (Scrum Master)</p></div>
+        </div>
+    
+  </footer>
 
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -196,5 +329,5 @@
 			integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
 			crossorigin="anonymous"
 		></script>
-</body>
+	</body>
 </html>
