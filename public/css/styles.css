@@ -53,32 +53,31 @@ body{
 	box-shadow: -2px 15px 23px -4px rgba(0,0,0,0.20);
 }
 
-.btn-doc{
-	width: 100px;
-	height: 40px;
-	border: 1px;
+.docButtom{
 	color: white;
-	border: 1px solid #458FF6;
-	background-color: #458FF6;
 	margin-top: 7px;
 	border-radius: 10px;
-	margin-left: 30%;
+	margin-left: 90px;
 }
-.btn-doc:hover{
+.docButtom .btn-primary{
+	background-color: #458FF6;
+}
+
+.docButtom:hover{
 	filter: opacity(0.5);
 }
 
-.btn-pat{
-	width: 100px;
-	height: 40px;
+.patButtom{
+	
 	color: white;
-	border: 1px solid#E869B8;
-	background-color: #E869B8;
 	border-radius: 10px;
-	margin-left: 190px;
+	margin-left: 10px;
+}
+.patButtom .btn-secondary{
+background-color:#E869B8;
 }
 
-.btn-pat:hover{
+.patButtom:hover{
 	filter: opacity(0.5);
 }
 .pat-Con{
@@ -96,6 +95,7 @@ body{
 .container .img-container{
 	display: inline-flex;
 	flex-wrap: wrap;
+	align-content: center;
 }
 
 
