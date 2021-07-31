@@ -178,6 +178,13 @@ h3{
 	filter: opacity(0.5);
 }
 
+.docButtom:hover{
+	filter: opacity(0.5);
+}
+
+.patButtom:hover{
+	filter: opacity(0.5);
+}
 
 .btn-pat{
 	width: 100px;
