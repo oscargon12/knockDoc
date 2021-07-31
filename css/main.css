@@ -205,6 +205,10 @@ h3{
 		width: 485px;
 	}
 
+.user-form-img img{
+	height: 420px;
+}
+
 /* Mediaquery */
 @media (max-width: 992px) {
 	.navbar-height {
