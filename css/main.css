@@ -226,3 +226,13 @@ h3{
 	width: 100%;
 	overflow-y: scroll;
 }
+
+.btn-primary{
+	background-color: #458FF6;
+	border: none;
+}
+
+.btn-secondary{
+	background-color: #E869B8;
+	border: none;
+}
